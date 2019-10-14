@@ -33,7 +33,7 @@
 
 
 import Vue from 'vue/dist/vue.esm'
-import App from '../app.vue'
+import App from '../app.vue.erb'
 
 document.addEventListener('DOMContentLoaded', () => {
   const app = new Vue({
